@@ -145,3 +145,15 @@
     transform: translate(-50%, -50%); /* Center the martlet */
     width: 10%; /* Adjust size as needed */
 }
+
+@media only screen and (max-width: 500px) {
+    #navbar{
+        padding-top: 4vh;
+    }
+    #userInfo{
+        font-size: 1rem;
+    }
+    #searchsection{
+        width: 80%;
+    }
+  }
