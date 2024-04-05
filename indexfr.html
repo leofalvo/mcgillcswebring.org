@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>McGill Computer Science Webring</title>
+    <meta name="author" content="Leo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.5.3"></script>
+</head>
+<body onload="fillSiteTable('fromLoading'); displayName();">
+    <div id="navbar">
+        <a id="logo" href="https://github.com/leofalvo/mcgillcswebring.org">McGill-CS</a>
+        <a id="langToggle" href="./indexfr.html">FR</a>
+    </div>
+    <div id="userInfo">
+    </div>
+    <div id="searchsection">
+        <input id="searchbar" placeholder="Recherche par nom, année ou site Web" oninput="fillSiteTable('fromSearch')">
+    </div>
+    <script type="module"  src="./js/mcgwebring.js"></script>
+</body>
+</html>
+
