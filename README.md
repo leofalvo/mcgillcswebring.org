@@ -1,4 +1,4 @@
-# McGill CS Webring
+# 💍 McGill CS Webring
 
 Web rings were an old fashioned form of search engine optimization to link together websites of a similar theme. This is a throwback to that! This site aims to aggregate websites made by students at McGill. If you're a computer science student at McGill University, here's how you can add your website to the webring:
 
