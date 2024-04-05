@@ -11,4 +11,14 @@ This project took heavy inspiration from UWaterloo's [se-webring](https://github
 
 ## How to Fork and Edit
 
-- **Forking**: Click on the 'Fork' button at the top right corner of the repository page. This
+- **Forking**: Click on the 'Fork' button at the top right corner of the repository page. This creates a copy of the repository in your GitHub account.
+- **Editing `./js/sites.js`**: Navigate to the `js` directory in your forked repository, find the `sites.js` file, and click on the edit icon (pencil). Add your details in the specified format.
+- **Submitting a Pull Request**: After committing your changes, head to the 'Pull requests' tab in the original repository and click 'New pull request'. Make sure to select your fork as the 'compare' branch and describe the changes you made.
+
+## Why Join?
+
+Joining the McGill CS Webring is a great way to:
+- Share your projects, blogs, or portfolio with fellow McGill CS students.
+- Discover the work of your peers and find collaboration opportunities.
+- Contribute to a community initiative and keep the spirit of web rings alive!
+
