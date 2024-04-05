@@ -54,7 +54,7 @@ function fillSiteTable(type){
 window.fillSiteTable = fillSiteTable;
 
 function displayName() {
-    let index = 0;
+    let index = Math.floor(Math.random() * sites.length);
 
     function nextSite() {
         const user = sites[index];
