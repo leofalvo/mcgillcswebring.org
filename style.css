@@ -1,7 +1,7 @@
 :root {
-    --background-color: #171614; /* Primary color */
-    --text-color: white; /* Secondary color */
-    --highlight-color: #ED1B2F; /* Accent color for links on hover/focus */
+    --background-color: #171614; 
+    --text-color: white; 
+    --highlight-color: #ED1B2F; 
   }
   
   * {
@@ -44,7 +44,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding-top: 20vh; /* Added padding above the navbar */
+    padding-top: 20vh; 
     padding-bottom: 10vh;
   }
   
@@ -55,13 +55,13 @@
   
   .siteslist {
     display: flex;
-    justify-content: center; /* Keeps items centered horizontally within the list */
-    width: 55%; /* Set width to 55% of its parent container */
+    justify-content: center; 
+    width: 55%; 
     flex-wrap: wrap;
     align-items: flex-start;
     list-style-type: none;
-    margin: 0 auto; /* Centers the list in the middle of the parent container */
-    padding: 20px; /* Optional: Adds padding inside the list for spacing */
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
   
@@ -106,16 +106,16 @@
   #userInfo, #searchsection {
     display: flex;
     justify-content: center;
-    width: 100%; /* Full width for proper centering */
+    width: 100%; 
     align-items: center;
-    margin: 1em auto; /* Auto margins for horizontal centering */
+    margin: 1em auto; 
   }
   
   #searchsection {
     width: 55%;
     flex-direction: row;
     border-bottom: 1px solid var(--text-color);
-    margin-top: 15px; /* Position adjustment, maintains existing top margin */
+    margin-top: 15px; 
   }
   
   #searchbar {
@@ -123,7 +123,7 @@
     background-color: transparent;
     color: var(--text-color);
     border: none;
-    width: 100%; /* Width of the search bar itself for proper alignment */
+    width: 100%; 
     outline: none;
   }
   
@@ -133,22 +133,23 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 3rem; /* Adjust based on your layout */
+    font-size: 3rem;
     margin: 1em 0;
     color: var(--mcgillred);
-    position: relative; /* Make this a positioning context */
+    position: relative;
 }
 
 #martlet {
-    position: absolute; /* Position absolutely within #userInfo */
-    left: 50%; /* Center horizontally relative to #userInfo */
-    transform: translate(-50%, -50%); /* Center the martlet */
-    width: 10%; /* Adjust size as needed */
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 10%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
     #navbar{
         padding-top: 4vh;
+        padding-bottom: 12vh;
     }
     #userInfo{
         font-size: 1rem;
