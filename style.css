@@ -1,0 +1,147 @@
+:root {
+    --background-color: #171614; /* Primary color */
+    --text-color: white; /* Secondary color */
+    --highlight-color: #ED1B2F; /* Accent color for links on hover/focus */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    min-height: 100%;
+    min-width: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    align-items: flex-start;
+  }
+  
+  a, p {
+    color: var(--text-color);
+    text-decoration-line: none;
+    transition: 0.5s;
+  }
+  
+  a:hover, a:focus {
+    color: var(--highlight-color);
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 20vh; /* Added padding above the navbar */
+    padding-bottom: 10vh;
+  }
+  
+  #logo {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .siteslist {
+    display: flex;
+    justify-content: center; /* Keeps items centered horizontally within the list */
+    width: 55%; /* Set width to 55% of its parent container */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0 auto; /* Centers the list in the middle of the parent container */
+    padding: 20px; /* Optional: Adds padding inside the list for spacing */
+}
+
+  
+  .siteslist li {
+    margin: 20px;
+  }
+  
+  #martlet {
+    width: 10vw;
+    min-width: 140px;
+    margin-bottom: 30px;
+  }
+  
+  .fade-in, .fade-out {
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+.fade-out {
+    animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 2s;
+    -moz-animation: fadeOut ease 2s;
+    -o-animation: fadeOut ease 2s;
+    -ms-animation: fadeOut ease 2s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+  
+  #userInfo, #searchsection {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width for proper centering */
+    align-items: center;
+    margin: 1em auto; /* Auto margins for horizontal centering */
+  }
+  
+  #searchsection {
+    width: 55%;
+    flex-direction: row;
+    border-bottom: 1px solid var(--text-color);
+    margin-top: 15px; /* Position adjustment, maintains existing top margin */
+  }
+  
+  #searchbar {
+    font-family: 'Fira Code', monospace;
+    background-color: transparent;
+    color: var(--text-color);
+    border: none;
+    width: 100%; /* Width of the search bar itself for proper alignment */
+    outline: none;
+  }
+  
+  #userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3rem; /* Adjust based on your layout */
+    margin: 1em 0;
+    color: var(--mcgillred);
+    position: relative; /* Make this a positioning context */
+}
+
+#martlet {
+    position: absolute; /* Position absolutely within #userInfo */
+    left: 50%; /* Center horizontally relative to #userInfo */
+    transform: translate(-50%, -50%); /* Center the martlet */
+    width: 10%; /* Adjust size as needed */
+}

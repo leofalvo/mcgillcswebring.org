@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using Fira Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.5.3"></script>
+</head>
+<body onload="fillSiteTable('fromLoading'); displayName();">
+    <div id="navbar">
+        <a id="logo" href="https://www.cs.mcgill.ca">McGill-CS</a>
+        <a id="langToggle" href="./indexfr.html">FR</a>
+    </div>
+    <div id="userInfo">
+    </div>
+    <div id="searchsection">
+        <input id="searchbar" placeholder="Search by name, year, or website" oninput="fillSiteTable('fromSearch')">
+    </div>
+    <script type="module"  src="./js/mcgwebring.js"></script>
+</body>
+</html>
+
