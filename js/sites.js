@@ -7,7 +7,7 @@ const sites = [
     {
         "name" : "Aditi Potnis",
         "year" : "2026",
-        "website" : "xx"
+        "website" : "https://www.mcgill.ca"
     }
 ]
 export default sites;
