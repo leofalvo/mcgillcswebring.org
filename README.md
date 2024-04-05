@@ -23,4 +23,4 @@ Joining the McGill CS Webring is a great way to:
 - Discover the work of your peers and find collaboration opportunities.
 - Contribute to a community initiative and keep the spirit of web rings alive!
 
-# Written By Leo Falvo :)
+**Written By Leo Falvo :)**
