@@ -4,7 +4,7 @@ Web rings were an old fashioned form of search engine optimization to link toget
 
 1. Fork the repository.
 2. Edit `./js/sites.js`
-3. Add your details in the format: `{ name: "Your Name", year: "Your Year of Graduation", website: "Your Website URL",  }`.
+3. Add your details in the format: `{ name: "Your Name", year: "Your Year of Graduation", website: "Your Website URL"}`.
 4. Submit a pull request with your changes.
 
 This project took heavy inspiration from UWaterloo's [se-webring](https://github.com/simcard0000/se-webring/tree/main?tab=readme-ov-file#whats-a-webring) and [ece.engineering](https://github.com/roozbehali/ece_webring).
