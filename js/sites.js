@@ -1,6 +1,6 @@
 const sites = [
     {
-        "name" : "Leonardo Falvo",
+        "name" : "Leo Falvo",
         "year" : "2026", //inshallah
         "website" : "https://leofalvo.github.io"
     },
