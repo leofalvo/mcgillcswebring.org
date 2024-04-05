@@ -1,0 +1,1 @@
+Web rings were an old fashioned form of search engine optimization to link together websites of a similar theme. This is a throwback to that! If you're a computer science student at McGill University, submit a pull request in the ./js/sites.js file with your name, year, and website.
