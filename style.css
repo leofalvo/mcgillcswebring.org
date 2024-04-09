@@ -14,20 +14,17 @@
     min-width: 100%;
   }
   
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Fira Code', monospace;
-    background-color: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100vh;
-    width: 100%;
-    margin-left: 0;
-    align-items: flex-start;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Fira Code', monospace;
+  background-color: var(--background-color);
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  margin-left: 0;
+}
   
   a, p {
     color: var(--text-color);
