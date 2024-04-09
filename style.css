@@ -2,54 +2,58 @@
     --background-color: #171614; 
     --text-color: white; 
     --highlight-color: #ED1B2F; 
-}
-
-* {
+  }
+  
+  * {
     margin: 0;
     padding: 0;
-}
-
-html {
+  }
+  
+  html {
     min-height: 100%;
     min-width: 100%;
-}
-
-body {
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    font-family: 'Fira Code', monospace;
-    background-color: var(--background-color);
     min-height: 100vh;
     width: 100%;
-}
-
-a, p {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+  
+  a, p {
     color: var(--text-color);
     text-decoration-line: none;
     transition: 0.5s;
-}
-
-a:hover, a:focus {
+  }
+  
+  a:hover, a:focus {
     color: var(--highlight-color);
-}
-
-#navbar {
+  }
+  
+  #navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     padding-top: 20vh; 
     padding-bottom: 10vh;
-}
-
-#logo {
+  }
+  
+  #logo {
     font-weight: bold;
     font-size: large;
-}
-
-.siteslist {
+  }
+  
+  .siteslist {
     display: flex;
     justify-content: center; 
     width: 55%; 
@@ -60,57 +64,61 @@ a:hover, a:focus {
     padding: 20px; 
 }
 
-.siteslist li {
+  
+  .siteslist li {
     margin: 20px;
-}
-
-#martlet {
+  }
+  
+  #martlet {
     width: 10vw;
     min-width: 140px;
     margin-bottom: 30px;
-    position: absolute;
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-}
-
-.fade-in, .fade-out {
+  }
+  
+  .fade-in, .fade-out {
     animation-duration: 2s;
     animation-timing-function: ease;
-}
+  }
 
-.fade-in {
+  .fade-in {
     animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
 }
-
 .fade-out {
     animation: fadeOut ease 2s;
+    -webkit-animation: fadeOut ease 2s;
+    -moz-animation: fadeOut ease 2s;
+    -o-animation: fadeOut ease 2s;
+    -ms-animation: fadeOut ease 2s;
 }
-
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
-
 @keyframes fadeOut {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
+    0% {opacity:1;}
+    100% {opacity:0;}
 }
-
-#userInfo, #searchsection {
+  
+  #userInfo, #searchsection {
     display: flex;
     justify-content: center;
+    width: 100%; 
     align-items: center;
     margin: 1em auto; 
-}
-
-#searchsection {
+  }
+  
+  #searchsection {
     width: 43%;
     flex-direction: row;
     border-bottom: 1px solid var(--text-color);
     margin-top: 15px; 
-}
-
-#searchbar {
+  }
+  
+  #searchbar {
     font-family: 'Fira Code', monospace;
     background-color: transparent;
     font-size: 1rem;
@@ -118,29 +126,39 @@ a:hover, a:focus {
     border: none;
     width: 100%; 
     outline: none;
-}
-
-#userInfo {
+  }
+  
+  #userInfo {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     font-size: 2.4rem;
     margin: 1em 0;
-    color: #ED1B2F);
+    color: var(--mcgillred);
     position: relative;
 }
 
+#martlet {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 10%;
+}
+
 @media only screen and (max-width: 700px) {
-    #navbar {
+    #navbar{
         padding-top: 4vh;
         padding-bottom: 12vh;
     }
-    #userInfo {
+    #userInfo{
         font-size: 1rem;
     }
-    #searchsection {
+    #searchsection{
         width: 80%;
     }
-    .siteslist {
+    .siteslist{
         padding: 13px;
     }
-}
+  }
