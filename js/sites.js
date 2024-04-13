@@ -17,7 +17,7 @@ const sites = [
     {
         "name" : "Reshu <3"
         "year" : "2026"
-        "website" : "https://open.spotify.com/artist/2Pe5q3Zy9rsEXFruizrlXZ?si=yOz-z_kLTEW1pIqhQ6QGXw"
+        "website" : "https://reswanthpillai.wixsite.com/website"
     }       
 ]
 export default sites;
