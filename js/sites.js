@@ -15,7 +15,7 @@ const sites = [
         "website": "https://github.com/Swagat404"
     },
     {
-        "name": "Reshu &lt;3",
+        "name": "Reshu",
         "year": "2026",
         "website": "https://reswanthpillai.wixsite.com/website"
     },
