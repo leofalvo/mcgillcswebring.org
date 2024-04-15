@@ -18,6 +18,12 @@ const sites = [
         "name" : "Reshu <3",
         "year" : "2026",
         "website" : "https://reswanthpillai.wixsite.com/website"
-    }       
+    },
+    {
+        "name" : "Zadig",
+        "year" : 2026",
+        "website" : "https://github.com/Z333333333333"
+    }
+
 ]
 export default sites;
