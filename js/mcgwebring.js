@@ -40,7 +40,10 @@ function fillSiteTable(type){
     for (let i = 0; i < siteArray.length; i++){
         let cleanSite = new URL(siteArray[i]["website"]);
         let host = cleanSite.hostname;
-        if (host.substring(0,4) === "www."){
+        if (host.includes("github")){
+            host = String(cleanSite).substring(8,cleanSite.length);
+        }
+        else if (host.substring(0,4) === "www."){
             host = host.substring(4, host.length);
         }
         htmlContent.push("<li><a target=\"_blank\" href=\"" + cleanSite.toString() + "\">" + host + "</a></li>");
