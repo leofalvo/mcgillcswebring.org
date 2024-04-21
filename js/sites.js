@@ -23,6 +23,11 @@ const sites = [
         "name": "Zadig",
         "year": "2026",
         "website": "https://github.com/Z333333333333"
+    },
+    {
+        "name": "Bardia Shahrestani",
+        "year": "2025",
+        "website": "https://bardiashahrestani.info/"
     }
 ];
 export default sites;
