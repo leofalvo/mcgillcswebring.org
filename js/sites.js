@@ -48,6 +48,12 @@ const sites = [
         "name": "Joey Yu",
         "year": "9999",
         "website": "https://jyu.dev"
+    },
+    {
+        "name": "Will Zahary",
+        "year": "2024",
+        "website": "https://www.willzahary.com"
     }
+    
 ];
 export default sites;
