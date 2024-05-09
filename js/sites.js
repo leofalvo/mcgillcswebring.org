@@ -33,6 +33,11 @@ const sites = [
         "name": "Austin Huang",
         "year": "2024",
         "website": "https://austinhuang.me"
+    },
+    {
+        "name": "Santosh Passoubady",
+        "year": "2025",
+        "website": "https://ssantoshp.github.io/"
     }
 ];
 export default sites;
