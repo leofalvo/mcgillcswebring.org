@@ -53,6 +53,11 @@ const sites = [
         "name": "Will Zahary",
         "year": "2024",
         "website": "https://www.willzahary.com"
+    },
+    {
+        "name": "Prof. Errington",
+        "year": "Professor",
+        "website": "https://jerrington.me",
     }
     
 ];
