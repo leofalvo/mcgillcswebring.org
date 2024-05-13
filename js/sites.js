@@ -7,7 +7,7 @@ const sites = [
     {
         "name": "Aditi Potnis",
         "year": "2026",
-        "website": "https://github.com/aditipotnis"
+        "website": "https://aditipotnis.github.io"
     },
     {
         "name": "Swagat Bhowmik",
